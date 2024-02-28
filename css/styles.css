@@ -1,0 +1,25 @@
+ body{background-image: url("https://th.bing.com/th/id/R.109e0c22a0c16ff044d8f80631d0f9be?rik=ZL%2brMUO3%2f7yFPA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fMvpA04M.jpg&ehk=HKepL%2f7wfMV4IoHPSVTJh1Vp16RYIYYBNilc4MKf5eg%3d&risl=&pid=ImgRaw&r=0");
+        }
+        h1{color: white;
+        font-style: italic;
+        font-weight: bolder;
+        margin-left: 150px;
+        font-stretch: condensed;
+        font-family: cursive;}
+        h3{margin-left: 100px;
+          color: gainsboro;
+        }
+        p{color: white;
+        font-weight: bold;
+        }
+        .image{margin-left: 30px;
+        border: grey 3px solid;
+        width: 470px;
+        padding: 10px;
+        background-color: grey;
+        border-radius: 30px;}
+        .aud{float: right;
+        width: 400px;
+        }
+        img:hover{color: grey}
+        img{filter: saturate(200%)}

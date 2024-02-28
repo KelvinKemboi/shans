@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        body{background-color: #8d8da1
+        }
+        .first{border:grey 1px solid;
+        border-radius: 5px;
+        height: 25px;}
+        input::placeholder{padding: 10px;
+        }
+        h2{padding-left: 130px;
+        color: white;}
+        .ema{width: 337px;
+        border:grey 1px solid;
+            height: 25px;
+        border-radius: 5px;}
+        form{border: transparent 1px solid;
+            width: 350px;
+            border-radius: 20px;
+        padding: 30px;
+            box-shadow: 0 0 40px 20px rgb(36, 35, 49);
+            margin-left: 400px;
+        background-color: #453985;
+            filter: sepia(50%);
+        }
+        .sub{margin-left: 20px;
+            background-color: #593617;
+            filter: sepia(50%);
+            border: #593617 1px solid;
+            height: 28px;
+            border-radius: 15px;
+            color: #6a5fad;
+        width: 300px;}
+        .sub:hover{background-color: black;
+        color:gold;}
+    .log{padding-left: 30px;
+    color: white;
+    font-size: smaller;}
+    .now{color: white;
+        padding-left: 40px;
+    }
+    .mel{color: white;
+    padding-left: 65px;
+        font-size: smaller;
+    }
+    a{color: white;
+    }
+    a:hover{color: black;
+    }
+
+    </style>
+</head>
+<body>
+
+<form action="" method="post">
+    <h2>Sign up</h2>
+    <input class="first" type="text"  placeholder="First Name" autofocus autocomplete="Kelvin">
+    <input class="first" type="text" placeholder="Last Name" required autocomplete="Kemboi"><br><br>
+    <input class="ema" type="email" placeholder="Email" required autocomplete="kelvinkemboi@gmail.com"><br><br>
+    <input class="ema" type="password" placeholder="Password" required autocomplete="123456"><br><br>
+    <input class="ema" type="password" placeholder="Confirm password" required><br><br>
+    <p class="log"><input  type="checkbox" required>  I accept the Terms of Use & Privacy Policy</p>
+    <input class="sub" type="submit" value="Sign up"><br>
+    <p class="now">Already have an account?<a href="http://">Login here</a></p>
+    <p class="mel">Copyright  &#169;  YourCompany.com</p>
+</form>
+</body>
+</html>

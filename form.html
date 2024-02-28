@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<h2><u>Please fill in the form below</u></h2>
+<form action="" method="post" autocomplete="on">
+    <div class="pace">
+        <fieldset class="dash">
+        <legend>Crucial information</legend>
+        <div class="lin">
+    <label for="firstname">Student name</label><br>
+    <input type="text" name="student" id="firstname" placeholder="Student name" autofocus><br><br>
+    <label for="reg no">Registration number</label><br>
+    <input type="number" name="reg no" id="reg no" placeholder="Registration number" required><br><br>
+    <label for="phone">Phone number</label><br>
+    <input type="tel" name="phone" id="phone" placeholder="Student's number" required><br><br>
+    <label for="email">Enter Email</label><br>
+    <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+    <label for="pass">Enter password</label><br>
+    <input type="password" name="pass" id="pass" placeholder="Password" required><br><br>
+            </div>
+              </fieldset>
+    </div>
+    <div class="place">
+        <fieldset class="dash">
+            <legend>Other information</legend>
+        <div class="lin">
+    <label for="study">Indicate your year of study</label><br>
+    <input type="tel" name="study" id="study" placeholder="Year of study" required><br><br>
+    <label for="parent no">Enter your parent(s) number</label><br>
+    <input type="tel" name="parent no" id="parent no" placeholder="Parent(s) phone number"><br><br>
+    <label for="birthdate">Indicate your date of birth</label><br>
+    <input type="date" name="birthdate" id="birthdate" required><br><br>
+        <label for="Home county">Where do you live?</label><br>
+        <select name="Home county" id="Home county">
+            <option value="Nairobi">Nairobi</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Eldoret">Eldoret</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="Kajiado">Kajiado</option>
+            <option value="Meru">Meru</option>
+            <option value="Nyeri">Nyeri</option>
+            <option value="Homa bay">Homa bay</option>
+            <option value="Machakos">Machakos</option>
+        </select>
+    <br><br>
+    <label for="gender">What is your gender?</label><br>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+    </select><br><br>
+            </div>
+            </fieldset>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="text">
+    <label  for="comments" class="kel">Please describe yourself</label><br>
+    <textarea name="comments" id="comments" cols="30" rows="10" required></textarea><br><br>
+    </div>
+    <br><br><br>
+    <input type="submit" class="sub">
+
+</form>
+</body>
+</html>
